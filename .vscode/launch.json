@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Mr.Shua_f9466c40"
+        },
+        {
             "name": "(Windows) 启动",
             "type": "cppvsdbg",
             "request": "launch",
@@ -15,7 +22,6 @@
             "environment": [],
             "console": "externalTerminal"
         },
-        
         {
             "name": "编译并运行",
             "type": "cppvsdbg",
@@ -32,9 +38,8 @@
             "environment": [],
             "externalConsole": true,
             "internalConsoleOptions": "neverOpen",
-            "preLaunchTask": "C/C++: g++.exe build active file" 
+            "preLaunchTask": "C/C++: g++.exe build active file"
         },
-
         {
             "name": "g++.exe - 生成和调试活动文件",
             "type": "cppdbg",
